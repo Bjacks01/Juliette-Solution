@@ -1,0 +1,87 @@
+.jumbo {
+  text-align: center;
+  margin-top: 20px;
+}
+.hrDept {
+  opacity: 100;
+  border: 2;
+  width: 25%;
+  margin: auto;
+}
+.hrDept2 {
+  opacity: 100;
+  border: 2;
+  margin-left: 40px;
+  margin-right: 20px;
+}
+.jumboInfo {
+  margin-top: 10px;
+}
+#menuGroupRow {
+  background-color: black;
+  color: white;
+}
+.bi {
+  color: white;
+  margin-left: 5px;
+}
+.card {
+  background: #f3e7df;
+  margin-bottom: 20px;
+}
+.lCard {
+  margin-left: 20px;
+}
+.rCard {
+  margin-right: 0px;
+}
+#menuGroup{
+  margin-left: 20px;
+}
+#menuGroupRow {
+  margin-left: 20px;
+  margin-right: 1px;
+}
+.card-title {
+  text-align: center;
+}
+#titleRow {
+  margin-left: 0px;
+  margin-right: 0px;
+  background-color: #429282;
+  color: white;
+}
+.imgHolder {
+  height: 150px;
+  overflow: hidden;
+  margin-bottom: 0px;
+}
+.card-img-top {
+  margin-left: auto;
+  margin-right: auto;
+}
+.card-text {
+  margin-top: -12px;
+}
+#collapseBtn {
+  margin-left: 10px;
+  padding-top: 0px;
+}
+.price {
+  text-align: right;
+  color: brown;
+}
+#orderBtn {
+  padding-top: 0px;
+  margin-bottom: 0px;
+  background-color: #429282;
+  color: white;
+}
+
+#checkoutBtn {
+  margin-left: 20px;
+  background-color: #429282;
+  color: white;
+/*   display: flex;
+  justify-content: right; */
+}

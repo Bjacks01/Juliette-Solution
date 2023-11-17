@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Riverbottom Grill Order Online</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel='stylesheet' href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.2.2/font/bootstrap-icons.css">
+</head>
+
+<div class='row'id='fakeNav'>
+  <img src='pics/rbgNavbar.png' alt='rbg navbar'>
+</div>
+<div class='row'>
+  <div class='jumbotron-fluid'>
+    <div class='container-fluid jumbo'>
+      <h2 class='jumboTitle'>Order Online</h2>
+      <hr class='hrDept'>
+      <p class='jumboInfo'>Look over the menu - get what sounds good - and checkout!
+    </div>
+  </div>
+</div>
+<!--  bs cards  -->
+<div class='container'>
+<div class='row' id='menuGroupRow'>
+  <div class='col-sm-1'>
+    <h5 id='menuGroup'>Appetizers</h5>
+    </div>
+<!--  Collapse Btn  -->
+  <div class='col-sm-1'>
+    <button id='collapseBtn' class='btn' type="button" data-bs-toggle="collapse" data-bs-target="#menuItemRow1" aria-expanded="false" aria-controls="collapseExample"><i class="bi bi-chevron-down"></i></button>
+  </div>
+</div>
+<div class='row collapse show' id='menuItemRow1'>
+  <div class='col-md-4'>
+<!--   Card Gator   -->
+    <div class='card lCard'>
+      <div class='row' id='titleRow'>
+        <h6 class='card-title'>Alligator Tail</h6>
+      </div>
+      <div class='imgHolder'>
+        <img src='pics/gatorTail.jpg' class='card-img-top' alt='alligator bites'>
+      </div>
+      <div class='card-body'>
+        <p class='card-text'>Filleted, cubed, marinated, seasoned, & breaded to perfection
+        <div class='row'>
+          <div class='col'>
+            <button id='orderBtn' class='btn' type='button'>Add to Order</button>
+          </div>
+          <div class='col'>
+            <p class='price'>Market Price
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class='col-md-4'>
+<!--   Card Claws   -->
+    <div class='card'>
+      <div class='row' id='titleRow'>
+        <h6 class='card-title'>Crab Claws</h6>
+      </div>
+      <div class='imgHolder'>
+        <img src='pics/crabClaws.jpg' class='card-img-top' alt='crab claws'>
+      </div>
+      <div class='card-body'>
+        <p class='card-text'>Hand battered & deep fried - our crab claws will change the game
+        <div class='row'>
+          <div class='col'>
+            <button id='orderBtn' class='btn' type='button'>Add to Order</button>
+          </div>
+          <div class='col'>
+            <p class='price'>Market Price
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class='col-md-4'>
+<!--   Card Wangz   -->
+    <div class='card rCard'>
+      <div class='row' id='titleRow'>
+        <h6 class='card-title'>Buffalo Wings</h6>
+      </div>
+      <div class='imgHolder'>
+        <img src='pics/buffWings.jpg' class='card-img-top' alt='buffalo wings'>
+      </div>
+      <div class='card-body'>
+        <p class='card-text'>Ten traditional wings deep fried & rolled in buffalo sauce
+        <div class='row'>
+          <div class='col'>
+            <button id='orderBtn' class='btn' type='button'>Add to Order</button>
+          </div>
+          <div class='col'>
+            <p class='price'>$13
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--  Entree rows  -->
+<div class='row' id='menuGroupRow'>
+  <div class='col-sm-1'>
+    <h5 id='menuGroup'>Entrees</h5>
+    </div>
+<!--  Collapse Btn  -->
+  <div class='col-sm-1'>
+    <button id='collapseBtn' class='btn' type="button" data-bs-toggle="collapse" data-bs-target="#menuItemRow2" aria-expanded="false" aria-controls="collapseExample"><i class="bi bi-chevron-down"></i></button>
+  </div>
+</div>
+<div class='row collapse show' id='menuItemRow2'>
+  <div class='col-md-4'>
+<!--   Card Island   -->
+    <div class='card lCard'>
+      <div class='row' id='titleRow'>
+        <h6 class='card-title'>Island Chicken</h6>
+      </div>
+      <div class='imgHolder'>
+        <img src='pics/islandChk.jpg' class='card-img-top' alt='island chicken'>
+      </div>
+      <div class='card-body'>
+        <p class='card-text'>Grilled chicken breast, pepper jack cheese, grilled pineapple, & a sweet chili glaze
+        <div class='row'>
+          <div class='col'>
+            <button id='orderBtn' class='btn' type='button'>Add to Order</button>
+          </div>
+          <div class='col'>
+            <p class='price'>$16
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class='col-md-4'>
+<!--   Card Mahi   -->
+    <div class='card'>
+      <div class='row' id='titleRow'>
+        <h6 class='card-title'>Mahi-Mahi</h6>
+      </div>
+      <div class='imgHolder'>
+        <img src='pics/mahiMahi.png' class='card-img-top' alt='mahi-mahi'>
+      </div>
+      <div class='card-body'>
+        <p class='card-text'>Fresh-frozen from Gulf Shores, seasoned with your choice of blackening or lemon pepper
+        <div class='row'>
+          <div class='col'>
+            <button id='orderBtn' class='btn' type='button'>Add to Order</button>
+          </div>
+          <div class='col'>
+            <p class='price'>$20
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class='col-md-4'>
+<!--   Card Surf   -->
+    <div class='card rCard'>
+      <div class='row' id='titleRow'>
+        <h6 class='card-title'>Surf & Turf</h6>
+      </div>
+      <div class='imgHolder'>
+        <img src='pics/surfturf.png' class='card-img-top' alt='surf & turf'>
+      </div>
+      <div class='card-body'>
+        <p class='card-text'>5oz filet mignon & one grilled shrimp skewer, flame-grilled to your choice of cook-temp
+        <div class='row'>
+          <div class='col'>
+            <button id='orderBtn' class='btn' type='button'>Add to Order</button>
+          </div>
+          <div class='col'>
+            <p class='price'>$36
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<hr class="hrDept2">
+<button class='btn' type='button' id='checkoutBtn'>Checkout</button>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js"></script>
+
+</html>
